@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Introduction-to-coral {
+    background-color: #1E28320D;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.section-img {
+    position: absolute;
+    width: 10%;
+    z-index: -2;
+    top: 380px;
+    left: 90%;
+}
+
+.frame-img {
+    position: absolute;
+    width: 8%;
+    z-index: -2;
+    top: 470px;
+    right: 92%;
+}
+
+.coral-main-one {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-one img,
+.div-four img {
+    cursor: pointer;
+}
+
+.div-three {
+    display: flex;
+}
+
+.div-four {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.div-four h5 {
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hr-one {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.coral-main-two {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.coral-one {
+    padding-top: 80px;
+}
+
+.coral-one h1 {
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.coral-one p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.button-one {
+    margin-top: 20px;
+    background-color: #1E2832;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.coral-two img {
+    width: 80%;
+}
+
+.main-coral-one {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-coral-two {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.card-one {
+    width: 585px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-div {
+    display: flex;
+}
+
+.card-sub img {
+    width: 95%;
+    margin-top: 10px;
+}
+
+.animate__animated.animate__bounceInLeft {
+    animation-duration: 5s;
+}
+
+.main-coral-three {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.main-coral-three h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.coral-main-three {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.coral-three {
+    display: flex;
+}
+
+.coral-three h5 {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+.coral-three h5:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.button-two {
+    background-color: #1E2832;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-two img,
+.button-one img {
+    padding-right: 10px;
+}
+
+.coral-four {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.coral-five img {
+    width: 95%;
+}
+
+.coral-five h2 {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.coral-six {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.coral-six h4 {
+    color: #00000080;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.coral-six h6 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.del {
+    font-size: 12px;
+    color: #00000080;
+    font-weight: 300;
+    padding-left: 100px;
+}
+
+.main-coral-four img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.main-coral-five {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1E28320D;
+    padding-bottom: 60px;
+}
+
+.main-coral-five h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.coral-main-four {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.coral-main-four img {
+    width: 100%;
+    padding: 10px;
+}
+
+.main-coral-five h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    border: none;
+    background-color: inherit;
+    border-bottom: 2px solid grey;
+    width: 30%;
+    padding-left: 10px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    height: 30px;
+}
+
+.submit-div {
+    margin-left: 30px;
+    width: 10%;
+    border-bottom: 2px solid grey;
+    text-align: center;
+}
+
+.submit-div button {
+    color: rgba(30, 40, 50, 1);
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+}
+
+.main-coral-six {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coral-test {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.coral-test p {
+    color: #1E2832BF;
+    padding-top: 7px;
+    font-size: 17px;
+}
+
+.icon-div img {
+    padding-left: 25px;
+}
+
+.Footer-nav h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.Footer-nav ul li {
+    list-style-type: none;
+    color: #1E2832BF;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main-coral-seven {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #1E2832;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-coral-seven h4 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.button-three {
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-three img {
+    padding-left: 5px;
+}
+
+@media(max-width: 990px) {
+    .coral-main-one {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .div-one img {
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .hr-one {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .div-four {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .navbar ul {
+        display: grid;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        list-style-type: none;
+        padding-top: 10px;
+        padding-bottom: 5px;
+
+    }
+
+    .navbar ul li {
+        text-align: left;
+        padding: 7px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .coral-main-two {
+        display: grid;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .coral-one {
+        padding-top: 30px;
+    }
+
+    .coral-one h1 {
+        padding-bottom: 30px;
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    .coral-one p {
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+
+    .button-one {
+        margin-top: 20px;
+        background-color: #1E2832;
+        color: #fff;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 7px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .coral-two img {
+        width: 90%;
+    }
+
+    .section-img {
+        position: absolute;
+        width: 23%;
+        z-index: -2;
+        top: 455px;
+        left: 77%;
+    }
+
+    .frame-img {
+        position: absolute;
+        width: 20%;
+        z-index: -2;
+        top: 520px;
+        right: 80%;
+    }
+
+    .main-coral-one {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+    }
+
+
+    .main-coral-two {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        display: grid;
+
+    }
+
+    .card-one {
+        width: 350px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card-two {
+        height: 360px;
+        padding-left: 5px;
+    }
+
+    .card-div {
+        display: flex;
+    }
+
+    .card-sub {
+        display: grid;
+        justify-content: center;
+    }
+
+    .card-sub img {
+        width: 340px;
+        margin-top: 15px;
+    }
+
+    .main-coral-three {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main-coral-three h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .coral-main-three {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .coral-three h5 {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #00000080;
+    }
+
+    .coral-four {
+        display: grid;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .coral-five {
+        padding: 10px;
+    }
+
+    .coral-five img {
+        width: 100%;
+    }
+
+    .main-coral-four img {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .main-coral-five {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #1E28320D;
+        padding-bottom: 60px;
+    }
+
+    .main-coral-five h1 {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .coral-main-four {
+        display: grid;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .coral-main-four img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-coral-five h2 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+
+    .form-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form {
+        border: none;
+        background-color: inherit;
+        border-bottom: 2px solid grey;
+        width: 60%;
+        padding-left: 10px;
+        outline: none;
+        font-size: 17px;
+        font-weight: 400;
+        height: 30px;
+    }
+
+    .submit-div {
+        margin-left: 30px;
+        width: 25%;
+        border-bottom: 2px solid grey;
+        text-align: center;
+    }
+
+    .main-coral-six {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .tester {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+    }
+
+    .coral-test {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+
+    .coral-test p {
+        color: #1E2832BF;
+        padding-top: 7px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .icon-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon-div img {
+        padding: 25px;
+    }
+
+    .Footer-nav {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .Footer-nav h2 {
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+
+    .Footer-nav ul li {
+        list-style-type: none;
+        color: #1E2832BF;
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .main-coral-seven {
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #1E2832;
+        display: grid;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main-coral-seven h4 {
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+
+    .button-three {
+        margin: auto;
+        background-color: inherit;
+        border: none;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+        outline: none;
+        margin-top: 10px;
+    }
+
+    .button-three img {
+        padding-left: 5px;
+    }
+
+    .scroll-div {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+}
